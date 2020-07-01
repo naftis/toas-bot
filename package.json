@@ -1,0 +1,24 @@
+{
+  "name": "toas-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot which prints your TOAS queue position",
+  "main": "src/index.ts",
+  "repository": "https://github.com/naftis/toas-bot",
+  "author": "Pyry Rouvila",
+  "license": "MIT",
+  "dependencies": {
+    "@types/cron": "^1.7.2",
+    "@types/dotenv": "^8.2.0",
+    "@types/node-telegram-bot-api": "^0.40.3",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "envalid": "^6.0.2",
+    "node-telegram-bot-api": "^0.40.0",
+    "playwright-chromium": "^0.12.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
+}
