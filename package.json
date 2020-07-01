@@ -6,6 +6,9 @@
   "repository": "https://github.com/naftis/toas-bot",
   "author": "Pyry Rouvila",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
   "dependencies": {
     "@types/cron": "^1.7.2",
     "@types/dotenv": "^8.2.0",
